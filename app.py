@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import pickle
 
+#my_app
 app = Flask(__name__)
 
 # Load the model
